@@ -1,0 +1,20 @@
+<div class="neo-widget__content">
+    <div class="neo-widget__header">
+      <div class="neo-widget__header-left">
+        <p>Headset Call Sample Widget</p>
+      </div>
+    </div>
+    <div class="neo-widget__body">
+      <h4><b>Voice Call Controls</b></h4>
+      <div *ngIf="!allInteractions.length" class="neo-empty-state">
+        <p class="neo-icon-info">
+            No active interactions<br>
+            Call controls will become available once a call comes in
+        </p>
+      </div>
+      <div>
+        <button *ngIf="allInteractions.length" class='neo-btn neo-btn-primary neo-btn-primary--success neo-icon-call' (click)="acceptInteraction()">Accept Interaction</button>
+        <button *ngIf="allInteractions.length" class='neo-btn neo-btn-primary neo-btn-primary--alert neo-icon-call-end' (click)="endInteraction()">End Interaction</button>
+      </div>
+    </div>
+  </div>

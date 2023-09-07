@@ -1,0 +1,28 @@
+{
+  "name": "async-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async-sample-widget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-wc": "npm run build-wc:clean && webpack-cli && post_build.sh",
+    "build-wc:clean": "rd /s dist && mkdir dist"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "./hooks/pre-push.sh $HUSKY_GIT_STDIN"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "lit-element": "^2.4.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "@avaya/neo": "^3.30.0",
+    "linkifyjs": "^3.0.0-beta.3",
+    "husky": "^4.3.8"
+  }
+}

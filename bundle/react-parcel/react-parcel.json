@@ -1,0 +1,9 @@
+{
+  "name": "React Parcel Sample Widget",
+  "description": "Basic React web component built with Parcel demonstrating Widget API notification methods",
+  "tags": ["parcel", "react", "widget-api"],
+  "version": "1.0.0",
+  "element": "<react-parcel></react-parcel>",
+  "icon": "neo-icon-fullscreen-on",
+  "files": ["react-parcel/react-parcel.js"]
+}

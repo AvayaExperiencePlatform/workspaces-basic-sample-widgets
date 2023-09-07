@@ -1,0 +1,10 @@
+{
+    "name": "Sample Call Control",
+    "description": "Basic web component demonstrating accept and delete call controls using the Widget API",
+    "tags": ["Angular", "demo", "web", "component"],
+    "version": "1.0.0",
+    "element": "<sample-call-control></sample-call-control>",
+    "icon": "neo-icon-customer-journey",
+    "files": ["sample-call-control/sample-call-control.js"]
+}
+  

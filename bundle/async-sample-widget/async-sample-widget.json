@@ -1,0 +1,10 @@
+{
+  "name": "Async Sample Widget",
+  "description": "Basic web component demonstrating the Widget api calls used by Async widget",
+  "tags": ["Async", "demo", "api"],
+  "version": "1.0.8",
+  "id": "82c22070-57db-4fe9-8688-7168bc439e44",
+  "element": "<async-sample-widget></async-sample-widget>",
+  "icon": "neo-icon-messaging",
+  "files": ["async-sample-widget/async-sample-widget.js"]
+}

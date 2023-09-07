@@ -1,0 +1,9 @@
+{
+    "name": "LitElement Sample Widget",
+    "description": "Basic LitElement web component demonstrating Widget API notification methods",
+    "tags": ["Email", "demo", "api"],
+    "version": "1.0.0",
+    "element": "<lit-hello-world></lit-hello-world>",
+    "icon": "neo-icon-email",
+    "files": ["lit-hello-world/lit-hello-world.js"]
+  }

@@ -1,0 +1,9 @@
+{
+    "name": "Customer Journey Sample Widget",
+    "description": "Basic web component demonstrating the Widget api calls used by CJ",
+    "tags": ["CJ", "demo", "api", "world"],
+    "version": "1.0.0",
+    "element": "<customer-journey-sample-widget></customer-journey-sample-widget>",
+    "icon": "neo-icon-customer-journey",
+    "files": ["customer-journey-sample-widget/customer-journey-sample-widget.js"]
+  }

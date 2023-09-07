@@ -1,0 +1,108 @@
+<div class="neo-widget__content">
+  <div class="neo-widget__header">
+    <div class="neo-widget__header-left">
+      <p>Angular Web Component</p>
+    </div>
+  </div>
+  <div class="neo-widget__body">
+    <h3><b>Sample widget demonstrating Widget API methods</b></h3>
+
+    <h4>Broadcast Message Within Interaction Context</h4>
+    <form class="neo-form">
+      <div class="neo-form-control">
+        <div class="neo-input-group">
+          <label for="name-input">
+            Message
+          </label>
+          <div class="neo-input-editable__wrapper">
+            <input class="neo-input" id="name-input" placeholder="Input message" type="text" [(ngModel)]="message" />
+          </div>
+        </div>
+      </div>
+      <button class='neo-btn neo-btn-primary neo-btn-primary--default' (click)="sendNotification()">Send
+        Notification</button>
+    </form>
+
+    <h4>Broadcast Message To Any Widget</h4>
+    <form class="neo-form">
+      <div class="neo-form-control">
+        <div class="neo-input-group">
+          <label for="name-input">
+            Message
+          </label>
+          <div class="neo-input-editable__wrapper">
+            <input class="neo-input" id="name-input" placeholder="Input message" type="text" [(ngModel)]="anyWidgetMessage" />
+          </div>
+        </div>
+      </div>
+      <button class='neo-btn neo-btn-primary neo-btn-primary--default' (click)="sendNotificationToAnyWidget()">Send
+        Notification</button>
+    </form>
+
+    <h4>Interaction Object</h4>
+    <pre>{{ interaction | json }}</pre>
+
+    <h4>Interaction Ended Object</h4>
+    <pre>{{ interactionEnded | json }}</pre>
+
+    <h4>Agent Object</h4>
+    <pre>{{ agent | json }}</pre>
+
+    <h4>Disposition Codes</h4>
+    <pre>{{ dispositionCodes | json }}</pre>
+
+    <h4>Disposition Codes (Filtered)</h4>
+    <pre>{{ voiceDispositionCodes | json }}</pre>
+
+    <h4>Additional Work Codes</h4>
+    <pre>{{ additionalWorkCodes | json }}</pre>
+
+    <h4>Not Ready Reason Codes</h4>
+    <pre>{{ notReadyReasonCodes | json }}</pre>
+
+    <h4>Work Codes</h4>
+    <pre>{{ workCodes | json }}</pre>
+
+    <h4>Work Codes (Filtered)</h4>
+    <pre>{{ emailWorkCodes | json }}</pre>
+
+    <h4>Configuration Object</h4>
+    <pre>{{ configuration | json }}</pre>
+
+    <h4>Navigation Object</h4>
+    <pre>{{ navigation | json }}</pre>
+
+    <h4>Locale Object</h4>
+    <pre>{{ locale | json }}</pre>
+
+    <h4>Customer Object</h4>
+    <pre>{{ customer | json }}</pre>
+
+    <h4>Media Object</h4>
+    <pre>{{ media | json }}</pre>
+
+    <h4>Media Message Object</h4>
+    <pre>{{ mediaMessage | json }}</pre>
+
+    <h4>Page Push Url Object</h4>
+    <pre>{{ pagePushUrl | json }}</pre>
+
+    <h4>Context Object</h4>
+    <pre>{{ context | json }}</pre>
+
+    <h4>Message Object</h4>
+    <pre>{{ message | json }}</pre>
+
+    <h4>Capabilities Object</h4>
+    <pre>{{ capabilities | json }}</pre>
+
+    <h4>Widget Message Received</h4>
+    <pre>{{ widgetMessage | json }}</pre>
+
+    <h4>Deleted Custom Card</h4>
+    <pre>{{ customCardDeleted | json }}</pre>
+
+    <h4>Widget Metadata</h4>
+    <pre>{{ metadata | json}}</pre>
+  </div>
+</div>

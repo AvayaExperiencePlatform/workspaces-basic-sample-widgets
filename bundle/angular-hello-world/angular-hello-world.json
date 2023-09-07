@@ -1,0 +1,10 @@
+{
+    "name": "Sample Angular Web Component",
+    "description": "Basic web component demonstrating a Notification call using the Widget API",
+    "tags": ["Angular", "demo", "web", "component"],
+    "version": "1.0.0",
+    "element": "<angular-hello-world></angular-hello-world>",
+    "icon": "neo-icon-customer-journey",
+    "files": ["angular-hello-world/angular-hello-world.js"]
+}
+  

@@ -1,0 +1,9 @@
+{
+  "name": "Email Sample Widget",
+  "description": "Basic web component demonstrating the Widget api calls used by Email widget",
+  "tags": ["Email", "demo", "api"],
+  "version": "1.0.0",
+  "element": "<email-sample-widget></email-sample-widget>",
+  "icon": "neo-icon-email",
+  "files": ["email-sample-widget/email-sample-widget.js"]
+}

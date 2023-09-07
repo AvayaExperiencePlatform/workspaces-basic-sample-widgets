@@ -1,0 +1,19 @@
+{
+  "name": "lit-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lit-hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-wc": "npm run build-wc:clean && webpack-cli && node bundleFiles.js",
+    "build-wc:clean": "rm -rf dist && mkdir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "lit-element": "^2.4.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

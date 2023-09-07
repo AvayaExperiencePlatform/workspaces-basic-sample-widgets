@@ -1,0 +1,9 @@
+{
+    "name": "React Sample Widget",
+    "description": "Basic React web component demonstrating Widget API notification methods",
+    "tags": ["Email", "demo", "api"],
+    "version": "1.0.0",
+    "element": "<react-hello-world></react-hello-world>",
+    "icon": "neo-icon-email",
+    "files": ["react-hello-world/react-hello-world.js"]
+  }
