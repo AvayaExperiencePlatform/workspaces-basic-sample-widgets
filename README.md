@@ -1,21 +1,42 @@
-## Hosting the Sample Widgets
+# Avaya Workspaces Basic Sample Widgets
 
-Download http-server to host the widgets locally and test your changes.
-Run http-server -p --port number here-- --cors -c-1 in the bundle folder.
-You can then import the widget json into the admin widget manager and add it to a layout.
-After adding the widget to admin via widget manager you need to click on the override url button on the right hand side
-Here you must add your http local server details, note that "localhost" is not accepted as a valid url, instead you will have
-to provide one of the fully formed urls provided in the output of your http-server command, such as "http://135.123.65.219:8007/",
-Don't forget you must add a backslash at the end of the url in order to be valid  
-[Hosting UWF sample component library](./docs/uwf-sample-library/hosting-uwf-library.md)
+Welcome to our repository containing a diverse collection of widgets showcasing various functionalities. Each folder in this repository represents a widget, built to showcase certain functionalities of Widget Framework SDK. To learn more about each project, please visit the corresponding folder.
 
-&nbsp;
+---
+
+## Folder Overview
+
+### [Angular Hello World](./angular-hello-world)
+Angular hello world widget is a basic example of a widget built using Angular framework.  
+
+### [Async Sample Widget](./async-sample-widget)
+Basic LitElement web component demonstrating the Widget API calls that an Async widget might use. 
+
+### [Customer Journey Sample Widget](./customer-journey-sample-widget)
+Customer journey sample widget is a basic example of a widget built using vanillaJS.
+
+### [Email Sample Widget](./email-sample-widget)
+A widget that demonstrates handling email interactions in a user-friendly manner.
+
+### [Lit Hello World](./lit-hello-world)
+Basic LitElement web component demonstrating Widget API notification methods
+
+### [React Hello World](./react-hello-world)
+Basic React web component demonstrating Widget API notification methods
+
+### [React Parcel](./react-parcel)
+Basic React web component built with Parcel demonstrating Widget API notification methods.
+
+### [Sample Call Control](./sample-call-control)
+Sample call control widget is a basic example of a widget built using Angular framework. 
+
+---
+
+## Getting Started
+
+Each folder contains its own README.md file with specific instructions and details about the project, including setup, build processes, and usage guidelines.
 
 # Widget API Documentation
 
 [Widget API Docs](https://documentation.workspaces.avayacloud.com/widget-framework/docs/api-reference/introduction)
 
-
-#### Neo css
-
-- [Neo CSS docs](http://neo.avaya.design/#/)
