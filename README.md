@@ -36,6 +36,10 @@ Sample call control widget is a basic example of a widget built using Angular fr
 
 Each folder contains its own README.md file with specific instructions and details about the project, including setup, build processes, and usage guidelines.
 
+## Hosting the Widgets
+
+To host these widgets, please refer to the [Hosting Widgets](https://documentation.workspaces.avayacloud.com/widget-framework/docs/api-reference/tools-and-config/hosting-widget)section in the widget API documentation.
+
 # Widget API Documentation
 
 [Widget API Docs](https://documentation.workspaces.avayacloud.com/widget-framework/docs/api-reference/introduction)
